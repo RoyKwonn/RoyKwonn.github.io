@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "퍼셉트론 (Perceptron)"
+title: "01_퍼셉트론 (Perceptron)"
 categories: deeplearning
 author:
 - Seokhwan Kwon
@@ -94,6 +94,9 @@ $$ y_{out}=  \binom{n_{1}}{n_{2}} \binom{w_{31}}{w_{32}} + b_{3} = n_{1}w_{31} +
 
 위 예시를 가지고 한번 풀어보아라.
 그러면 일련의 수식이 나오게 되는데 x<sub>1</sub>, x<sub>2</sub>의 각각 값을 대입해보면 XOR의 연산을 할 수 있을 것이다.
+
+![Perceptron예제_연산결과](/assets/images/Perceptron예제_연산결과.jpeg)
+
 
 > 위 예제가 바로 Perceptron의 은닉층을 활용하여 XOR를 구하는 기법이다.
 > 여기서 은닉층은 n<sub>1</sub>, n<sub>2</sub>이다.
