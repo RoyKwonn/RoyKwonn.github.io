@@ -192,6 +192,110 @@ n3(node)의 delta식이라고 한다.</p>
 다만, (1)은 풀이방식이 조금 다르다 왜냐하면 위 flowchart에서 보여지는 것처럼 은닉층이기 때문에 중간의 y<sub>h1</sub>을 바로 알 수 없다. 따라서 y<sub>out</sub>의 값에서 유도를 해야하기 때문이다.</p>
 </blockquote>
 
+<h4 id="2-3">(2), (3)</h4>
+
+\[\frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}} = y_{h1}(1 - y_{h1}) \cdot x_{1}\]
+
+<h2 id="7-은닉층의-오차계산-방법">7. 은닉층의 오차계산 방법</h2>
+
+<h4 id="1-1">(1)</h4>
+
+\[\frac{d오차y_{out}}{dy_{h1}}\]
+
+<blockquote>
+  <p>위 식은 출력층의 오차 업데이트와 다른 방식으로 풀이해야한다.</p>
+
+  <p>why? y<sub>h1</sub>에 대해서 미분해야하기 때문이다.</p>
+</blockquote>
+
+\[\frac{d오차y_{out}}{dy_{h1}} = \frac{d(오차y_{o1}) + d(오차y_{o2})}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\]
+
+<blockquote>
+  <p>오차 y<sub>o1</sub>가 있는 식을 (a)라하고, 오차 y<sub>o2</sub>가 있는 식을 (b)라고 하자.</p>
+</blockquote>
+
+<p>(a)</p>
+
+\[\frac{d(오차y_{o1})}{dy_{h1}} = \frac{d오차y_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dy_{h1}}\]
+
+<blockquote>
+  <p>앞에 있는것을 (a)-1, 뒤에 있는 것을 (a)-2라고 나누어 풀어보자.</p>
+</blockquote>
+
+<p>(a)-1
+\(\frac{d오차y_{o1}}{d가중합_{3}} =  \frac{d오차y_{o1}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}}\)
+\(= (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1})\)</p>
+<blockquote>
+  <p>출력층의 오차계산 방법에서 우리는 이 값을 이미 구했다.
+풀이 방식이 이해가지 않는다면 이전내용을 참고하시오.
+(tip. 앞의 식은 MSE의 미분이다. 뒤의 식은 시그노이드의 미분이다.)</p>
+</blockquote>
+
+<p>(a)-2</p>
+
+\[\frac{d가중합_{3}}{dy_{h1}} = w_{31}\]
+
+<blockquote>
+  <p>y<sub>h1</sub>과 관련된 식은 무엇인가? w<sub>31</sub> 밖에 없다.</p>
+</blockquote>
+
+<p>(a)의 결론</p>
+
+\[\frac{d오차y_{o1}}{dy_{h1}} = (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1}) \cdot w_{31}\]
+
+<blockquote>
+  <p>여기서 w<sub>31</sub>를 제외한 나머지를 보자. 앞에서 본 delta와 동일하지 않는가?
+그래서 다음과 같이 나타낼 수 있다.</p>
+</blockquote>
+
+\[\frac{d오차y_{o1}}{dy_{h1}} = (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1}) \cdot w_{31} = \delta y_{o1} \cdot w_{31}\]
+
+<p>(b)</p>
+
+<p>\(\frac{d오차y_{o2}}{dy_{h1}} = \frac{d오차y_{o2}}{d가중합_{4}} \cdot \frac{d가중합_{4}}{dy_{h1}}\)
+\(= \frac{d오차y_{o2}}{d가중합_{4}} \cdot w_{41}\)
+\(= (y_{o2} - y_{t2}) \cdot y_{o2} (1-y_{o2}) \cdot w_{41}\)
+\(= \delta y_{o2} \cdot w_{41}\)</p>
+
+<blockquote>
+  <p>(a)의 풀이방식과 유사하다.</p>
+</blockquote>
+
+<h4 id="1--a--b">(1) = (a) + (b)</h4>
+
+<p>\(\frac{d오차y_{out}}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\)
+\(= \delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}\)</p>
+
+<h4 id="은닉층의-오차-업데이트-최종-결과">은닉층의 오차 업데이트 최종 결과</h4>
+
+\[\frac{d오차y_{out}}{dw_{11}} = \frac{d오차y_{out}}{dy_{h1}} \cdot \frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}}\]
+
+\[= (\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\]
+
+<h2 id="8-델타식">8. 델타식</h2>
+
+<p>출력층의 오차 업데이트는 아래와 같다.
+\((y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\)</p>
+
+<p>은닉층의 오차 업데이트는 아래와 같다.
+\((\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\)</p>
+
+<blockquote>
+  <p>위에서 동일한 부분이 보이는가?</p>
+
+  <p>하나, out(1 - out)의 형태가 동일하게 존재한다.</p>
+
+  <p>둘, 앞에서 출력층의 (y<sub>o1</sub> - y<sub>t1</sub>)는 오차값임을 배웠다. 그런데 은닉층에서도 오차값이 존재하는가? 존재한다! 은닉층은 그 내부를 알 수 없으므로 출력층에서 y<sub>o</sub>값을 가져와 계산을 해야하기때문에 복잡하게 표현된 것 뿐이지 결국 동일하게 오차를 나타내는 부분이 존재한다.</p>
+
+  <p>즉, 출력층과 은닉층 모두 ‘오차 X out(1-out)’의 형태이다. 이러한 형태를 델타식이라고 한다.</p>
+</blockquote>
+
+<p>델타가 중요한 이유는 한층을 거슬러 올라갈 때마다 같은 형태로 계속 나타나기 때문이다.</p>
+
+<p>아래는 델타식의 표현방법이다. δh를 은닉층의 델타식이라고 할때, 은닉층의 가중치 업데이트는 다음과 같다.</p>
+
+\[w_{11}(t + 1) = w_{11}t - \delta h \cdot x_{1}\]
+
   </div><a class="u-url" href="/deeplearning/2021/02/02/Back-propagation.html" hidden></a>
 </article>
 

@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>딥러닝 개발환경 구축하기 | A workbench of Seokhwan’s</title>
+<meta name="generator" content="Jekyll v4.2.0" />
+<meta property="og:title" content="딥러닝 개발환경 구축하기" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="개발환경" />
+<meta property="og:description" content="개발환경" />
+<meta property="og:site_name" content="A workbench of Seokhwan’s" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-03T00:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="딥러닝 개발환경 구축하기" />
+<script type="application/ld+json">
+{"url":"/deeplearning/2021/02/03/setup-env-for-deeplearning.html","headline":"딥러닝 개발환경 구축하기","dateModified":"2021-02-03T00:00:00+09:00","datePublished":"2021-02-03T00:00:00+09:00","description":"개발환경","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/deeplearning/2021/02/03/setup-env-for-deeplearning.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="A workbench of Seokhwan's" />
+</head>
+<body><header class="site-header">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">A workbench of Seokhwan&#39;s</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/about/">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">딥러닝 개발환경 구축하기</h1>
+    <p class="post-meta"><time class="dt-published" datetime="2021-02-03T00:00:00+09:00" itemprop="datePublished">
+        Feb 3, 2021
+      </time>• 
+          <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+            <span class="p-author h-card" itemprop="name">Seokhwan Kwon</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h2 id="개발환경">개발환경</h2>
+
+<h3 id="0-download-ubuntu">0. DOWNLOAD UBUNTU</h3>
+
+<p>You shuld download with torrent because of downloading rapidlly</p>
+
+<p>Link : <a href="https://ubuntu.com/download/alternative-downloads">UBUNTU DOWNLOAD</a></p>
+
+<h3 id="1-install-ubuntu-desktop-18045-virtual-machine-or-multi-boot">1. INSTALL UBUNTU Desktop 18.04.5 (Virtual machine OR Multi boot)</h3>
+
+<h4 id="11-host-설정">1.1. HOST 설정</h4>
+<ul>
+  <li>제어판 -&gt; Windows 기능 켜기/끄기 -&gt; Hyper-V 해제    // 없으면 안해도 됨</li>
+  <li>(BIOS 모드) Advanced Mode -&gt; Intel VT-x 또는 AMD-V Enable   // 맥은 안해도됨</li>
+</ul>
+
+<h4 id="12-vm">1.2. VM</h4>
+<ul>
+  <li>머신 -&gt; 새로만들기</li>
+  <li>메모리 크기 지정 (2048 MB 이상)</li>
+</ul>
+
+<h4 id="13-vm-하드디스크-생성">1.3. VM-하드디스크 생성</h4>
+<ul>
+  <li>지금 새 가상 하드 디스크 만들기</li>
+  <li>VDI (VirtualBox 디스크 이미지)</li>
+  <li>고정 크기</li>
+  <li>파일 위치 및 크기 (파일크기 30 GB 이상)</li>
+</ul>
+
+<h4 id="14-vm-설정-언급된건-체크">1.4. VM-설정 (언급된건 체크)</h4>
+<ul>
+  <li>일반 항목 -&gt; 클립보드, 드래그 앤 드롭 : 양방향 설정</li>
+  <li>시스템 항목 -&gt; 마더보드 : 플로피 디스크 해제, ICH9 칩셋, EFI 사용하기</li>
+  <li>시스템 항목 -&gt; 프로세서 : 프로세서 개수(실제 호스트 프로세서의 절반), PAN/NX 사용하기</li>
+  <li>디스플레이 항목 -&gt; 화면 : 비디오메모리(최대), 3차원 가속 사용하기</li>
+  <li>저장소 항목 -&gt; CD아이콘(광학 드라이브) : 다운받은 UBUNTU_XXXX.ISO 선택</li>
+</ul>
+
+<h4 id="15-머신-실행">1.5. 머신 실행</h4>
+<ul>
+  <li>언어, 사용자 이름, 비번 설정</li>
+  <li>그외 항목은 디폴트 선택</li>
+</ul>
+
+<h4 id="16-터미널-실행">1.6. 터미널 실행</h4>
+
+<p>dist-upgrade는 시간 여유많을 때 합시다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get update &amp;&amp; upgrade
+$ sudo apt dist-upgrade
+$ sudo apt-get install build-essential linux-headers-$(uname -r)
+</code></pre></div></div>
+
+<h4 id="17-vm-상단메뉴">1.7. VM-상단메뉴</h4>
+<ul>
+  <li>장치 -&gt; 게스트확장 CD 이미지 삽입</li>
+  <li>실행</li>
+  <li>설치완료 후 바탕화면의 CD 아이콘 오른쪽 마우스 클릭하여 꺼내기</li>
+  <li>재부팅</li>
+</ul>
+
+<h3 id="2-프로그램-충돌방지">2. 프로그램 충돌방지</h3>
+
+<p>Build할 때 공통적으로 발생하는 문제를 방지하기 위해 필요한 패키지들을 설치해준다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev
+</code></pre></div></div>
+
+<h3 id="3-pyenv">3. pyenv</h3>
+
+<p>git이 설치되지 않았다면 설치해준다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ sudo apt install git
+</code></pre></div></div>
+
+<p>git clone을 이용하여 소스를 다운받고 몇 가지 설정을 해준다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+$ echo 'export PYENV_ROOT="$HOME/.pyenv"' &gt;&gt; ~/.bash_profile
+$ echo 'export PATH="$PYENV_ROOT/bin:$PATH"' &gt;&gt; ~/.bash_profile
+$ echo 'eval "$(pyenv init -)"' &gt;&gt; ~/.bash_profile
+$ source ~/.bash_profile
+</code></pre></div></div>
+
+<h3 id="4-install-anaconda3-202002">4. Install anaconda3-2020.02</h3>
+
+<p>Keep in mind that the version 2020.02 that is mentioned in the above command is only compatible with Python 3.7. So, if you are operating the 2.7 version of Python, then use the link mentioned above to find the compatible version of Anaconda with your Python 2.7 version.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pyenv install anaconda3-2020.02
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+$ echo 'eval "$(pyenv virtualenv-init -)"' &gt;&gt; ~/.bash_profile
+$ source ~/.bash_profile
+</code></pre></div></div>
+
+<h3 id="5-set-virtualenv">5. set virtualenv</h3>
+
+<p>가상화 설정</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pyenv virtualenv anaconda3-2020.02 deeplearning
+$ pyenv versions
+  anaconda3-2020.02
+  anaconda3-2020.02/envs/deeplearning
+  deeplearning
+$ pyenv activate deeplearning
+(deeplearning) $ python -v
+...
+</code></pre></div></div>
+
+<p>가상화 종료</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ pyenv deactivate
+</code></pre></div></div>
+
+<h3 id="6-anaconda-설정">6. Anaconda 설정</h3>
+
+<p>가상화 실행상태에서</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(deeplearning) $ conda create -n py37 python=3.7
+(deeplearning) $ conda activate py37
+(py37)(deeplearning) $ pip install tensorflow==2.0.0
+(py37)(deeplearning) $ pip install keras==2.3
+
+</code></pre></div></div>
+
+<p>혹시 바로 안된다면, 아래 명령어 실행후 다시 위에 작업을 해주어라</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py37)(deeplearning) $ pyenv deactivate deeplearning
+</code></pre></div></div>
+
+<p>아래와 같은 내용이 출력된다면 잘 설치한 것이다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py37)(deeplearning) $ python
+Python 3.7.9 (default, Aug 31 2020, 12:42:55)
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type "help", "copyright", "credits" or "license" for more information.
+&gt;&gt;&gt; import tensorflow as tf
+&gt;&gt;&gt; print(tf.__version__)
+2.0.0
+&gt;&gt;&gt; import keras
+Using TensorFlow backend.
+&gt;&gt;&gt; exit()
+</code></pre></div></div>
+
+<h3 id="7-사용하는-툴">7. 사용하는 툴</h3>
+
+<p>장단점은 직접 찾아보시길…</p>
+
+<h4 id="71-jupyter-anaconda설치할때-같이-설치됨">7.1. jupyter (anaconda설치할때 같이 설치됨)</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py37)(deeplearning) $ jupyter notebook
+</code></pre></div></div>
+
+<h4 id="72-pycharm-community">7.2. PyCharm-community</h4>
+
+<p>파이참을 설치하기전 필요한 라이브러리를 미리 설치해 둡니다.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py37)(deeplearning) $ pip install numpy pandas matplotlib seaborn scipy sklearn h5py
+</code></pre></div></div>
+
+<p>설치링크 : https://www.jetbrains.com/ko-kr/pycharm/download/#section=linux</p>
+
+<h3 id="8-git에서-프로젝트-다운로드-방법">8. git에서 프로젝트 다운로드 방법</h3>
+
+<p>터미널에서 git clone 다운받고싶은URL</p>
+
+<h2 id="pycharm-설정-우분투에서">pyCharm 설정 (우분투에서)</h2>
+
+<h3 id="1-다운로드-및-설치">1. 다운로드 및 설치</h3>
+
+<h4 id="11-다운로드">1.1. 다운로드</h4>
+<p>pyCharm 홈페이지에서 community버전을 다운로드를 받는다.
+https://www.jetbrains.com/pycharm/</p>
+
+<h4 id="12-설치하기">1.2. 설치하기</h4>
+
+<p>다운받은 파일 압축해제 후 아래 폴더로 들어갑니다.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd ~/다운로드/pycharm-community-2020.3.2/bin
+$ sh pycharm.sh
+</code></pre></div></div>
+
+<p>or</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ~/download/pycharm-community-2020.3.2/bin
+$ sh pycharm.sh
+</code></pre></div></div>
+
+<h3 id="2-create-desktop-entry">2 Create Desktop Entry</h3>
+<p>어떤 곳에서도 pycharm.sh에 접근할 수 있도록 아래 절차를 따라해주세요.</p>
+
+<p>상단 탭에서
+Tools -&gt; Create Desktop Entry… 를 클릭합니다.
+체크박스가 나오는데 체크를 한다음 ok를 눌러줍니다</p>
+
+<h3 id="3-pychar에-anaconda-설정-적용하기">3. pychar에 Anaconda 설정 적용하기</h3>
+
+<ol>
+  <li>상단탭에서 File -&gt; Settings</li>
+  <li>왼쪽 메뉴에서 Project : XXXXX -&gt; Python Interpreter -&gt; py37를 적용 -&gt; OK</li>
+</ol>
+
+  </div><a class="u-url" href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <p class="feed-subscribe">
+          <a href="/feed.xml">
+            <svg class="svg-icon orange">
+              <use xlink:href="/assets/minima-social-icons.svg#rss"></use>
+            </svg><span>Subscribe</span>
+          </a>
+        </p>
+        <ul class="contact-list">
+          <li class="p-name">Seokhwan Kwon</li>
+          <li><a class="u-email" href="mailto:sychar05@gmail.com">sychar05@gmail.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</p>
+      </div>
+    </div>
+
+    <div class="social-links"><ul class="social-media-list"><li><a rel="me" href="https://github.com/Seokhwan-Kwon" title="Seokhwan-Kwon"><svg class="svg-icon grey"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg></a></li></ul>
+</div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>

@@ -1,5 +1,196 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-03T14:07:25+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">오차 역전파의 계산법 (Back propagation)</title><link href="/deeplearning/2021/02/02/Back-propagation.html" rel="alternate" type="text/html" title="오차 역전파의 계산법 (Back propagation)" /><published>2021-02-02T00:00:00+09:00</published><updated>2021-02-02T00:00:00+09:00</updated><id>/deeplearning/2021/02/02/Back-propagation</id><content type="html" xml:base="/deeplearning/2021/02/02/Back-propagation.html">&lt;p&gt;&lt;img src=&quot;/assets/images/출력층의_오차_업데이트.png&quot; alt=&quot;출력층의_오차_업데이트&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-03T16:07:18+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
+
+&lt;h3 id=&quot;0-download-ubuntu&quot;&gt;0. DOWNLOAD UBUNTU&lt;/h3&gt;
+
+&lt;p&gt;You shuld download with torrent because of downloading rapidlly&lt;/p&gt;
+
+&lt;p&gt;Link : &lt;a href=&quot;https://ubuntu.com/download/alternative-downloads&quot;&gt;UBUNTU DOWNLOAD&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-install-ubuntu-desktop-18045-virtual-machine-or-multi-boot&quot;&gt;1. INSTALL UBUNTU Desktop 18.04.5 (Virtual machine OR Multi boot)&lt;/h3&gt;
+
+&lt;h4 id=&quot;11-host-설정&quot;&gt;1.1. HOST 설정&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;제어판 -&amp;gt; Windows 기능 켜기/끄기 -&amp;gt; Hyper-V 해제    // 없으면 안해도 됨&lt;/li&gt;
+  &lt;li&gt;(BIOS 모드) Advanced Mode -&amp;gt; Intel VT-x 또는 AMD-V Enable   // 맥은 안해도됨&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;12-vm&quot;&gt;1.2. VM&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;머신 -&amp;gt; 새로만들기&lt;/li&gt;
+  &lt;li&gt;메모리 크기 지정 (2048 MB 이상)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;13-vm-하드디스크-생성&quot;&gt;1.3. VM-하드디스크 생성&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;지금 새 가상 하드 디스크 만들기&lt;/li&gt;
+  &lt;li&gt;VDI (VirtualBox 디스크 이미지)&lt;/li&gt;
+  &lt;li&gt;고정 크기&lt;/li&gt;
+  &lt;li&gt;파일 위치 및 크기 (파일크기 30 GB 이상)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;14-vm-설정-언급된건-체크&quot;&gt;1.4. VM-설정 (언급된건 체크)&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;일반 항목 -&amp;gt; 클립보드, 드래그 앤 드롭 : 양방향 설정&lt;/li&gt;
+  &lt;li&gt;시스템 항목 -&amp;gt; 마더보드 : 플로피 디스크 해제, ICH9 칩셋, EFI 사용하기&lt;/li&gt;
+  &lt;li&gt;시스템 항목 -&amp;gt; 프로세서 : 프로세서 개수(실제 호스트 프로세서의 절반), PAN/NX 사용하기&lt;/li&gt;
+  &lt;li&gt;디스플레이 항목 -&amp;gt; 화면 : 비디오메모리(최대), 3차원 가속 사용하기&lt;/li&gt;
+  &lt;li&gt;저장소 항목 -&amp;gt; CD아이콘(광학 드라이브) : 다운받은 UBUNTU_XXXX.ISO 선택&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;15-머신-실행&quot;&gt;1.5. 머신 실행&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;언어, 사용자 이름, 비번 설정&lt;/li&gt;
+  &lt;li&gt;그외 항목은 디폴트 선택&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;16-터미널-실행&quot;&gt;1.6. 터미널 실행&lt;/h4&gt;
+
+&lt;p&gt;dist-upgrade는 시간 여유많을 때 합시다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get update &amp;amp;&amp;amp; upgrade
+$ sudo apt dist-upgrade
+$ sudo apt-get install build-essential linux-headers-$(uname -r)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;17-vm-상단메뉴&quot;&gt;1.7. VM-상단메뉴&lt;/h4&gt;
+&lt;ul&gt;
+  &lt;li&gt;장치 -&amp;gt; 게스트확장 CD 이미지 삽입&lt;/li&gt;
+  &lt;li&gt;실행&lt;/li&gt;
+  &lt;li&gt;설치완료 후 바탕화면의 CD 아이콘 오른쪽 마우스 클릭하여 꺼내기&lt;/li&gt;
+  &lt;li&gt;재부팅&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;2-프로그램-충돌방지&quot;&gt;2. 프로그램 충돌방지&lt;/h3&gt;
+
+&lt;p&gt;Build할 때 공통적으로 발생하는 문제를 방지하기 위해 필요한 패키지들을 설치해준다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt-get install -y make build-essential libssl-dev zlib1g-dev libbz2-dev \
+libreadline-dev libsqlite3-dev wget curl llvm libncurses5-dev libncursesw5-dev \
+xz-utils tk-dev
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;3-pyenv&quot;&gt;3. pyenv&lt;/h3&gt;
+
+&lt;p&gt;git이 설치되지 않았다면 설치해준다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ sudo apt install git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;git clone을 이용하여 소스를 다운받고 몇 가지 설정을 해준다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git clone https://github.com/pyenv/pyenv.git ~/.pyenv
+$ echo 'export PYENV_ROOT=&quot;$HOME/.pyenv&quot;' &amp;gt;&amp;gt; ~/.bash_profile
+$ echo 'export PATH=&quot;$PYENV_ROOT/bin:$PATH&quot;' &amp;gt;&amp;gt; ~/.bash_profile
+$ echo 'eval &quot;$(pyenv init -)&quot;' &amp;gt;&amp;gt; ~/.bash_profile
+$ source ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;4-install-anaconda3-202002&quot;&gt;4. Install anaconda3-2020.02&lt;/h3&gt;
+
+&lt;p&gt;Keep in mind that the version 2020.02 that is mentioned in the above command is only compatible with Python 3.7. So, if you are operating the 2.7 version of Python, then use the link mentioned above to find the compatible version of Anaconda with your Python 2.7 version.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pyenv install anaconda3-2020.02
+$ git clone https://github.com/pyenv/pyenv-virtualenv.git $(pyenv root)/plugins/pyenv-virtualenv
+$ echo 'eval &quot;$(pyenv virtualenv-init -)&quot;' &amp;gt;&amp;gt; ~/.bash_profile
+$ source ~/.bash_profile
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;5-set-virtualenv&quot;&gt;5. set virtualenv&lt;/h3&gt;
+
+&lt;p&gt;가상화 설정&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pyenv virtualenv anaconda3-2020.02 deeplearning
+$ pyenv versions
+  anaconda3-2020.02
+  anaconda3-2020.02/envs/deeplearning
+  deeplearning
+$ pyenv activate deeplearning
+(deeplearning) $ python -v
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;가상화 종료&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ pyenv deactivate
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;6-anaconda-설정&quot;&gt;6. Anaconda 설정&lt;/h3&gt;
+
+&lt;p&gt;가상화 실행상태에서&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(deeplearning) $ conda create -n py37 python=3.7
+(deeplearning) $ conda activate py37
+(py37)(deeplearning) $ pip install tensorflow==2.0.0
+(py37)(deeplearning) $ pip install keras==2.3
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;혹시 바로 안된다면, 아래 명령어 실행후 다시 위에 작업을 해주어라&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(py37)(deeplearning) $ pyenv deactivate deeplearning
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;아래와 같은 내용이 출력된다면 잘 설치한 것이다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(py37)(deeplearning) $ python
+Python 3.7.9 (default, Aug 31 2020, 12:42:55)
+[GCC 7.3.0] :: Anaconda, Inc. on linux
+Type &quot;help&quot;, &quot;copyright&quot;, &quot;credits&quot; or &quot;license&quot; for more information.
+&amp;gt;&amp;gt;&amp;gt; import tensorflow as tf
+&amp;gt;&amp;gt;&amp;gt; print(tf.__version__)
+2.0.0
+&amp;gt;&amp;gt;&amp;gt; import keras
+Using TensorFlow backend.
+&amp;gt;&amp;gt;&amp;gt; exit()
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;7-사용하는-툴&quot;&gt;7. 사용하는 툴&lt;/h3&gt;
+
+&lt;p&gt;장단점은 직접 찾아보시길…&lt;/p&gt;
+
+&lt;h4 id=&quot;71-jupyter-anaconda설치할때-같이-설치됨&quot;&gt;7.1. jupyter (anaconda설치할때 같이 설치됨)&lt;/h4&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(py37)(deeplearning) $ jupyter notebook
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;72-pycharm-community&quot;&gt;7.2. PyCharm-community&lt;/h4&gt;
+
+&lt;p&gt;파이참을 설치하기전 필요한 라이브러리를 미리 설치해 둡니다.&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(py37)(deeplearning) $ pip install numpy pandas matplotlib seaborn scipy sklearn h5py
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;설치링크 : https://www.jetbrains.com/ko-kr/pycharm/download/#section=linux&lt;/p&gt;
+
+&lt;h3 id=&quot;8-git에서-프로젝트-다운로드-방법&quot;&gt;8. git에서 프로젝트 다운로드 방법&lt;/h3&gt;
+
+&lt;p&gt;터미널에서 git clone 다운받고싶은URL&lt;/p&gt;
+
+&lt;h2 id=&quot;pycharm-설정-우분투에서&quot;&gt;pyCharm 설정 (우분투에서)&lt;/h2&gt;
+
+&lt;h3 id=&quot;1-다운로드-및-설치&quot;&gt;1. 다운로드 및 설치&lt;/h3&gt;
+
+&lt;h4 id=&quot;11-다운로드&quot;&gt;1.1. 다운로드&lt;/h4&gt;
+&lt;p&gt;pyCharm 홈페이지에서 community버전을 다운로드를 받는다.
+https://www.jetbrains.com/pycharm/&lt;/p&gt;
+
+&lt;h4 id=&quot;12-설치하기&quot;&gt;1.2. 설치하기&lt;/h4&gt;
+
+&lt;p&gt;다운받은 파일 압축해제 후 아래 폴더로 들어갑니다.&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ cd ~/다운로드/pycharm-community-2020.3.2/bin
+$ sh pycharm.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;or&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ ~/download/pycharm-community-2020.3.2/bin
+$ sh pycharm.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;2-create-desktop-entry&quot;&gt;2 Create Desktop Entry&lt;/h3&gt;
+&lt;p&gt;어떤 곳에서도 pycharm.sh에 접근할 수 있도록 아래 절차를 따라해주세요.&lt;/p&gt;
+
+&lt;p&gt;상단 탭에서
+Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
+체크박스가 나오는데 체크를 한다음 ok를 눌러줍니다&lt;/p&gt;
+
+&lt;h3 id=&quot;3-pychar에-anaconda-설정-적용하기&quot;&gt;3. pychar에 Anaconda 설정 적용하기&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;상단탭에서 File -&amp;gt; Settings&lt;/li&gt;
+  &lt;li&gt;왼쪽 메뉴에서 Project : XXXXX -&amp;gt; Python Interpreter -&amp;gt; py37를 적용 -&amp;gt; OK&lt;/li&gt;
+&lt;/ol&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html">개발환경</summary></entry><entry><title type="html">오차 역전파의 계산법 (Back propagation)</title><link href="/deeplearning/2021/02/02/Back-propagation.html" rel="alternate" type="text/html" title="오차 역전파의 계산법 (Back propagation)" /><published>2021-02-02T00:00:00+09:00</published><updated>2021-02-02T00:00:00+09:00</updated><id>/deeplearning/2021/02/02/Back-propagation</id><content type="html" xml:base="/deeplearning/2021/02/02/Back-propagation.html">&lt;p&gt;&lt;img src=&quot;/assets/images/출력층의_오차_업데이트.png&quot; alt=&quot;출력층의_오차_업데이트&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;1-출력층의-오차-업데이트&quot;&gt;1. 출력층의 오차 업데이트&lt;/h2&gt;
 
@@ -137,7 +328,111 @@ n3(node)의 delta식이라고 한다.&lt;/p&gt;
   &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&lt;/code&gt; 다음에 나오는 식을 각각  (1), (2), (3)이라고 한다면,
 (2), (3)은 앞에 출력층의 오차 업데이트와 동일한 방법으로 진행하면 된다.
 다만, (1)은 풀이방식이 조금 다르다 왜냐하면 위 flowchart에서 보여지는 것처럼 은닉층이기 때문에 중간의 y&lt;sub&gt;h1&lt;/sub&gt;을 바로 알 수 없다. 따라서 y&lt;sub&gt;out&lt;/sub&gt;의 값에서 유도를 해야하기 때문이다.&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html"></summary></entry><entry><title type="html">최소 제곱법 (Method of least squares)</title><link href="/math/2021/01/30/Method-of-least-squares.html" rel="alternate" type="text/html" title="최소 제곱법 (Method of least squares)" /><published>2021-01-30T00:00:00+09:00</published><updated>2021-01-30T00:00:00+09:00</updated><id>/math/2021/01/30/Method-of-least-squares</id><content type="html" xml:base="/math/2021/01/30/Method-of-least-squares.html">&lt;blockquote&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;2-3&quot;&gt;(2), (3)&lt;/h4&gt;
+
+\[\frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}} = y_{h1}(1 - y_{h1}) \cdot x_{1}\]
+
+&lt;h2 id=&quot;7-은닉층의-오차계산-방법&quot;&gt;7. 은닉층의 오차계산 방법&lt;/h2&gt;
+
+&lt;h4 id=&quot;1-1&quot;&gt;(1)&lt;/h4&gt;
+
+\[\frac{d오차y_{out}}{dy_{h1}}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;위 식은 출력층의 오차 업데이트와 다른 방식으로 풀이해야한다.&lt;/p&gt;
+
+  &lt;p&gt;why? y&lt;sub&gt;h1&lt;/sub&gt;에 대해서 미분해야하기 때문이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+\[\frac{d오차y_{out}}{dy_{h1}} = \frac{d(오차y_{o1}) + d(오차y_{o2})}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;오차 y&lt;sub&gt;o1&lt;/sub&gt;가 있는 식을 (a)라하고, 오차 y&lt;sub&gt;o2&lt;/sub&gt;가 있는 식을 (b)라고 하자.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(a)&lt;/p&gt;
+
+\[\frac{d(오차y_{o1})}{dy_{h1}} = \frac{d오차y_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dy_{h1}}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;앞에 있는것을 (a)-1, 뒤에 있는 것을 (a)-2라고 나누어 풀어보자.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(a)-1
+\(\frac{d오차y_{o1}}{d가중합_{3}} =  \frac{d오차y_{o1}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}}\)
+\(= (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1})\)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;출력층의 오차계산 방법에서 우리는 이 값을 이미 구했다.
+풀이 방식이 이해가지 않는다면 이전내용을 참고하시오.
+(tip. 앞의 식은 MSE의 미분이다. 뒤의 식은 시그노이드의 미분이다.)&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(a)-2&lt;/p&gt;
+
+\[\frac{d가중합_{3}}{dy_{h1}} = w_{31}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;y&lt;sub&gt;h1&lt;/sub&gt;과 관련된 식은 무엇인가? w&lt;sub&gt;31&lt;/sub&gt; 밖에 없다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;(a)의 결론&lt;/p&gt;
+
+\[\frac{d오차y_{o1}}{dy_{h1}} = (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1}) \cdot w_{31}\]
+
+&lt;blockquote&gt;
+  &lt;p&gt;여기서 w&lt;sub&gt;31&lt;/sub&gt;를 제외한 나머지를 보자. 앞에서 본 delta와 동일하지 않는가?
+그래서 다음과 같이 나타낼 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+\[\frac{d오차y_{o1}}{dy_{h1}} = (y_{o1} - y_{t1}) \cdot y_{o1} (1-y_{o1}) \cdot w_{31} = \delta y_{o1} \cdot w_{31}\]
+
+&lt;p&gt;(b)&lt;/p&gt;
+
+&lt;p&gt;\(\frac{d오차y_{o2}}{dy_{h1}} = \frac{d오차y_{o2}}{d가중합_{4}} \cdot \frac{d가중합_{4}}{dy_{h1}}\)
+\(= \frac{d오차y_{o2}}{d가중합_{4}} \cdot w_{41}\)
+\(= (y_{o2} - y_{t2}) \cdot y_{o2} (1-y_{o2}) \cdot w_{41}\)
+\(= \delta y_{o2} \cdot w_{41}\)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;(a)의 풀이방식과 유사하다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h4 id=&quot;1--a--b&quot;&gt;(1) = (a) + (b)&lt;/h4&gt;
+
+&lt;p&gt;\(\frac{d오차y_{out}}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\)
+\(= \delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}\)&lt;/p&gt;
+
+&lt;h4 id=&quot;은닉층의-오차-업데이트-최종-결과&quot;&gt;은닉층의 오차 업데이트 최종 결과&lt;/h4&gt;
+
+\[\frac{d오차y_{out}}{dw_{11}} = \frac{d오차y_{out}}{dy_{h1}} \cdot \frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}}\]
+
+\[= (\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\]
+
+&lt;h2 id=&quot;8-델타식&quot;&gt;8. 델타식&lt;/h2&gt;
+
+&lt;p&gt;출력층의 오차 업데이트는 아래와 같다.
+\((y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\)&lt;/p&gt;
+
+&lt;p&gt;은닉층의 오차 업데이트는 아래와 같다.
+\((\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;위에서 동일한 부분이 보이는가?&lt;/p&gt;
+
+  &lt;p&gt;하나, out(1 - out)의 형태가 동일하게 존재한다.&lt;/p&gt;
+
+  &lt;p&gt;둘, 앞에서 출력층의 (y&lt;sub&gt;o1&lt;/sub&gt; - y&lt;sub&gt;t1&lt;/sub&gt;)는 오차값임을 배웠다. 그런데 은닉층에서도 오차값이 존재하는가? 존재한다! 은닉층은 그 내부를 알 수 없으므로 출력층에서 y&lt;sub&gt;o&lt;/sub&gt;값을 가져와 계산을 해야하기때문에 복잡하게 표현된 것 뿐이지 결국 동일하게 오차를 나타내는 부분이 존재한다.&lt;/p&gt;
+
+  &lt;p&gt;즉, 출력층과 은닉층 모두 ‘오차 X out(1-out)’의 형태이다. 이러한 형태를 델타식이라고 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;델타가 중요한 이유는 한층을 거슬러 올라갈 때마다 같은 형태로 계속 나타나기 때문이다.&lt;/p&gt;
+
+&lt;p&gt;아래는 델타식의 표현방법이다. δh를 은닉층의 델타식이라고 할때, 은닉층의 가중치 업데이트는 다음과 같다.&lt;/p&gt;
+
+\[w_{11}(t + 1) = w_{11}t - \delta h \cdot x_{1}\]</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html"></summary></entry><entry><title type="html">최소 제곱법 (Method of least squares)</title><link href="/math/2021/01/30/Method-of-least-squares.html" rel="alternate" type="text/html" title="최소 제곱법 (Method of least squares)" /><published>2021-01-30T00:00:00+09:00</published><updated>2021-01-30T00:00:00+09:00</updated><id>/math/2021/01/30/Method-of-least-squares</id><content type="html" xml:base="/math/2021/01/30/Method-of-least-squares.html">&lt;blockquote&gt;
   &lt;p&gt;입력 변수 \((x)\)가 한 개일 때 사용합니다. (여러 개의 입력을 처리하지 못한다.)
 여러개의 \((x, y)\)가 주어질때, \(y = ax + b\)를 구하는 방법입니다.&lt;/p&gt;
 &lt;/blockquote&gt;
