@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "오차 역전파의 계산법 (Back propagation)"
+title: "02_오차 역전파의 계산법 (Back propagation)"
 categories: deeplearning
 author:
 - Seokhwan Kwon
