@@ -3,19 +3,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.7.1 -->
-<title>오차 역전파의 계산법 (Back propagation) | A workbench of Seokhwan’s</title>
+<title>02_오차 역전파의 계산법 (Back propagation) | A workbench of Seokhwan’s</title>
 <meta name="generator" content="Jekyll v4.2.0" />
-<meta property="og:title" content="오차 역전파의 계산법 (Back propagation)" />
+<meta property="og:title" content="02_오차 역전파의 계산법 (Back propagation)" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta name="description" content="오차 역전파란?" />
+<meta property="og:description" content="오차 역전파란?" />
 <meta property="og:site_name" content="A workbench of Seokhwan’s" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2021-02-02T00:00:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="오차 역전파의 계산법 (Back propagation)" />
+<meta property="twitter:title" content="02_오차 역전파의 계산법 (Back propagation)" />
 <script type="application/ld+json">
-{"url":"/deeplearning/2021/02/02/Back-propagation.html","headline":"오차 역전파의 계산법 (Back propagation)","dateModified":"2021-02-02T00:00:00+09:00","datePublished":"2021-02-02T00:00:00+09:00","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"/deeplearning/2021/02/02/Back-propagation.html"},"@context":"https://schema.org"}</script>
+{"url":"/deeplearning/2021/02/02/Back-propagation.html","description":"오차 역전파란?","@type":"BlogPosting","headline":"02_오차 역전파의 계산법 (Back propagation)","dateModified":"2021-02-02T00:00:00+09:00","datePublished":"2021-02-02T00:00:00+09:00","mainEntityOfPage":{"@type":"WebPage","@id":"/deeplearning/2021/02/02/Back-propagation.html"},"@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="A workbench of Seokhwan's" />
 </head>
@@ -43,7 +43,7 @@
 </script>
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">오차 역전파의 계산법 (Back propagation)</h1>
+    <h1 class="post-title p-name" itemprop="name headline">02_오차 역전파의 계산법 (Back propagation)</h1>
     <p class="post-meta"><time class="dt-published" datetime="2021-02-02T00:00:00+09:00" itemprop="datePublished">
         Feb 2, 2021
       </time>• 
@@ -52,13 +52,36 @@
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <p><img src="/assets/images/출력층의_오차_업데이트.png" alt="출력층의_오차_업데이트" /></p>
+    <h2 id="오차-역전파란">오차 역전파란?</h2>
 
-<h2 id="1-출력층의-오차-업데이트">1. 출력층의 오차 업데이트</h2>
+<p>‘오차 역전파’는 ‘경사하강 법’이랑 유사하다.
+앞에서는 입력 1, 출력 1이었는데 이제는 은닉층이 있어서 다중입력, 다중출력이다.
+그래서 오차 역전파의 계산이 어려워 졌다. 계산 방법은 아래와 같다.</p>
+
+<ol>
+  <li>임의의 초기 가중치(w)를 준 뒤 결과(y<sub>out</sub>)를 계산한다.</li>
+  <li>계산 결과와 우리가 원하는 값 사이의 오차를 구한다.</li>
+  <li>경사 하강법을 이용해 바로 앞 가중치를 오차가 작아지는 방향으로 업데이트한다.</li>
+  <li>위 과정을 더이상 오차가 줄어들지 않을 때까지 반복한다.</li>
+</ol>
+
+<blockquote>
+  <p>3.4 추가 설명
+\(w(t + 1) =  w_{t} - \frac{d오차}{dw}\)
+위 공식으로 업데이트를 하는 것이다.
+사실 이러한 연산들은 케라스와 탠서플로우에서 다 구현이 되어있다.
+하지만 작동원리를 알아야 더 좋은 방법을 적용시킬 수 있으므로 우리는 이것을 배운다.</p>
+</blockquote>
+
+<h2 id="오차역전파-풀이">오차역전파 풀이</h2>
+
+<p><img src="/assets/images/출력층의_오차_업데이트.png" alt="출력층의_오차_업데이트" /></p>
+
+<h3 id="1-출력층의-오차-업데이트">1. 출력층의 오차 업데이트</h3>
 
 \[w_{31} (t + 1) = w_{31}t - \frac{d 오차 y_{out}}{dw_{31}}\]
 
-<h2 id="2-오차-공식">2. 오차 공식</h2>
+<h3 id="2-오차-공식">2. 오차 공식</h3>
 
 <p><code class="language-plaintext highlighter-rouge">1.</code>식에서 y<sub>out</sub>에 대한 값은 아래와 같이 구할 수 있다.
 \(오차 y_{out} = 오차y_{o1} + 오차y_{o2}\)</p>
@@ -78,7 +101,7 @@
 
 \[오차dy_{out} = \frac{1}{2}(y_{t1} - y_{o1})^{2} + \frac{1}{2}(y_{t2} - y_{o2})^{2}\]
 
-<h2 id="3-체인룰">3. 체인룰</h2>
+<h3 id="3-체인룰">3. 체인룰</h3>
 
 <p><code class="language-plaintext highlighter-rouge">2.</code>에서 구한 y<sub>out</sub>을 w<sub>31</sub>로 편미분하기 위해서는 체인룰을 알아야한다.</p>
 
@@ -93,14 +116,14 @@
 
 \[\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\]
 
-<h2 id="4-체인룰-계산하기">4. 체인룰 계산하기</h2>
+<h3 id="4-체인룰-계산하기">4. 체인룰 계산하기</h3>
 <p>\(\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\)</p>
 
 <blockquote>
   <p><code class="language-plaintext highlighter-rouge">=</code> 다음에 나오는 식을 각각  (1), (2), (3)이라고 한다면, 풀이하면 아래와 같다.</p>
 </blockquote>
 
-<h4 id="1">(1)</h4>
+<h5 id="1">(1)</h5>
 <p>\(\frac{d오차y_{out}}{dy_{o1}} = \left \{오차y_{o1} + 오차y_{o2}  \right \}'\)</p>
 
 <blockquote>
@@ -111,7 +134,7 @@
 \(= (y_{t1} - y_{o1}) \cdot (-1)\)
 \(\therefore \frac{d오차y_{out}}{dy_{o1}} = (y_{o1} - y_{t1})\)</p>
 
-<h4 id="2">(2)</h4>
+<h5 id="2">(2)</h5>
 
 <p>\(\frac{dy_{o1}}{d가중합_{3}}\)
 위는 <code class="language-plaintext highlighter-rouge">활성화 함수의 미분</code>이다. 맨위의 flowchart를 확인해보고 이해해보자.</p>
@@ -131,7 +154,7 @@
 \((\because \sigma = \frac{1}{1 + e^{-x}})\)
 \(\therefore \frac{d}{dx}  \sigma (x) = \sigma (x) (1 - \sigma (x) )\)</p>
 
-<h4 id="3">(3)</h4>
+<h5 id="3">(3)</h5>
 
 \[\frac{dy_{o1}}{d가중합_{3}}\]
 
@@ -150,13 +173,13 @@ why? bias는 그래프를 좌우로 움직이는 역할이다.
 
 \[\frac{dy_{o1}}{d가중합_{3}} = y_{h1}\]
 
-<h4 id="결론">(결론)</h4>
+<h5 id="결론">(결론)</h5>
 
 \[\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\]
 
 \[= (y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\]
 
-<h2 id="5-가중치-업데이트하기">5. 가중치 업데이트하기</h2>
+<h3 id="5-가중치-업데이트하기">5. 가중치 업데이트하기</h3>
 
 \[w_{31} (t + 1) = w_{31}t - \frac{d 오차 y_{out}}{dw_{31}}\]
 
@@ -171,7 +194,7 @@ n3(node)의 delta식이라고 한다.</p>
 
 \[= w_{31}t - \delta \cdot y_{h1}\]
 
-<h2 id="6-은닉층의-오차-업데이트">6. 은닉층의 오차 업데이트</h2>
+<h3 id="6-은닉층의-오차-업데이트">6. 은닉층의 오차 업데이트</h3>
 
 <p><img src="/assets/images/은닉층의_오차_업데이트.png" alt="은닉층의_오차_업데이트" /></p>
 
@@ -192,13 +215,13 @@ n3(node)의 delta식이라고 한다.</p>
 다만, (1)은 풀이방식이 조금 다르다 왜냐하면 위 flowchart에서 보여지는 것처럼 은닉층이기 때문에 중간의 y<sub>h1</sub>을 바로 알 수 없다. 따라서 y<sub>out</sub>의 값에서 유도를 해야하기 때문이다.</p>
 </blockquote>
 
-<h4 id="2-3">(2), (3)</h4>
+<h5 id="2-3">(2), (3)</h5>
 
 \[\frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}} = y_{h1}(1 - y_{h1}) \cdot x_{1}\]
 
-<h2 id="7-은닉층의-오차계산-방법">7. 은닉층의 오차계산 방법</h2>
+<h3 id="7-은닉층의-오차계산-방법">7. 은닉층의 오차계산 방법</h3>
 
-<h4 id="1-1">(1)</h4>
+<h5 id="1-1">(1)</h5>
 
 \[\frac{d오차y_{out}}{dy_{h1}}\]
 
@@ -261,18 +284,18 @@ n3(node)의 delta식이라고 한다.</p>
   <p>(a)의 풀이방식과 유사하다.</p>
 </blockquote>
 
-<h4 id="1--a--b">(1) = (a) + (b)</h4>
+<h5 id="1--a--b">(1) = (a) + (b)</h5>
 
 <p>\(\frac{d오차y_{out}}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\)
 \(= \delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}\)</p>
 
-<h4 id="은닉층의-오차-업데이트-최종-결과">은닉층의 오차 업데이트 최종 결과</h4>
+<h5 id="은닉층의-오차-업데이트-최종-결과">은닉층의 오차 업데이트 최종 결과</h5>
 
 \[\frac{d오차y_{out}}{dw_{11}} = \frac{d오차y_{out}}{dy_{h1}} \cdot \frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}}\]
 
 \[= (\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\]
 
-<h2 id="8-델타식">8. 델타식</h2>
+<h3 id="8-델타식">8. 델타식</h3>
 
 <p>출력층의 오차 업데이트는 아래와 같다.
 \((y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\)</p>
@@ -295,6 +318,54 @@ n3(node)의 delta식이라고 한다.</p>
 <p>아래는 델타식의 표현방법이다. δh를 은닉층의 델타식이라고 할때, 은닉층의 가중치 업데이트는 다음과 같다.</p>
 
 \[w_{11}(t + 1) = w_{11}t - \delta h \cdot x_{1}\]
+
+<h2 id="요약">요약</h2>
+
+<ol>
+  <li>환경변수 설정 : 입력값, 학습률, 타깃 결과값이 포함된 데이터셋, 활성화함수, 결과값</li>
+  <li>신경망 실행</li>
+  <li>결과값 == 실제값? 4.실행 : 5. 실행</li>
+  <li>반복횟수를 지정, 출력층 가중치 수정 -&gt; 은닉층 가중치 수정, 1.부터 다시 실행</li>
+  <li>결과 출력</li>
+</ol>
+
+<h2 id="오차역전파의-문제점-활성화-함수의-문제점">오차역전파의 문제점 (활성화 함수의 문제점)</h2>
+<p>오차 역전파는 출력층으로부터 하나씩 앞으로 되돌아가면서 각 층의 가중치를 수정하는 방법이다. 하지만 층이 늘어나면 역전파를 통해 전달되는 기울기 값이 점점 작아져 맨 처음층까지 도달하지 못하는 문제가 발생된다. 이게 바로 기울기 소실(Vanishing gradient)문제이다.</p>
+
+<h3 id="기울기-소실vanishing-gradient-문제">기울기 소실(Vanishing gradient) 문제</h3>
+
+<h5 id="sigmoid">sigmoid</h5>
+<p><img src="https://miro.medium.com/max/4384/1*6A3A_rt4YmumHusvTvVTxw.png" alt="sigmoid_derivative" /></p>
+
+\[f(x) = \frac{1}{1+e^{-x}}\]
+
+<p>sigmoid함수를 예를들어보자.
+미분을 할 경우 최대값이 0.3정도가 되는데 이때 기울기 소실이 발생 될 수 있다.</p>
+<blockquote>
+  <p>tip. 미분한 sigmoid의 최대값은 sigmoid를 두번미분한 값이 0이 될때의 x를 구하면 알 수 있다.</p>
+</blockquote>
+
+<h5 id="tanh-x">tanh x</h5>
+<p><img src="https://www.researchgate.net/profile/Henrik_Madsen/publication/233400322/figure/fig8/AS:669464982994955@1536624298388/The-threshold-function-tanhx-solid-line-and-the-derivative.png" alt="tanhx_derivative" /></p>
+
+\[\tanh x = \frac{\sinh x}{\cosh x} = \frac{\frac{e^{x} - e^{-x}}{2}}{\frac{e^{x} + e^{-x}}{2}} = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}} = -i \tan ix\]
+
+<h5 id="relu">ReLu</h5>
+
+<p><img src="https://miro.medium.com/max/640/1*akqBxW4dv35MKlU8a1-0Ag.png" alt="ReLU_derivative" /></p>
+
+<p>\(f(x) = \begin{Bmatrix}
+ x &amp;(x &gt; 0) \\
+ 0 &amp; (x \leqslant 0)
+\end{Bmatrix}\)
+ReLu같은 경우는 0보다 크기만 하면 미분값이 1이 되므로 ‘기울기 소실’이 발생되지 않습니다. 따라서 여러 은닉층을 거치며 곱해지더라도 맨 처음 층까지 사라지지 않고 남아잇을 수 있습니다.</p>
+
+<h5 id="softplus">softplus</h5>
+
+<p><img src="https://cdn-images-1.medium.com/max/800/1*w275Sin5bKAIaWBaJ6zXcA.png" alt="softplus" /></p>
+
+<p>\(f(x) = \log (1 + e^{x})\)
+ReLU를 변형한 것인데, 0이 되는 순간을 완화한 버전이라고 생각하면 된다.</p>
 
   </div><a class="u-url" href="/deeplearning/2021/02/02/Back-propagation.html" hidden></a>
 </article>

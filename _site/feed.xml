@@ -1,5 +1,32 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-03T16:07:18+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-05T05:57:31+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">자기소개서 꿀팁</title><link href="/resume/2021/02/05/resume-tips.html" rel="alternate" type="text/html" title="자기소개서 꿀팁" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>/resume/2021/02/05/resume-tips</id><content type="html" xml:base="/resume/2021/02/05/resume-tips.html">&lt;h3 id=&quot;유사경험이-있는-경우&quot;&gt;유사경험이 있는 경우&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
+  &lt;li&gt;관심 갖게 된 계기&lt;/li&gt;
+  &lt;li&gt;계기로 인해 유사 경험함(인턴, 알바 등) // 조금이라도 유사한 경험 // 유사 경험하면서 나의 강점 길렀다&lt;/li&gt;
+  &lt;li&gt;지식, 전문성 위한 지적 활동 : 이러한 경험에 나의 전문성을 더하고자 자격증을 땄고요 ~~교육을 받았고요 그리고 박람회에 가서 ~~를 참가해 봤습니다.&lt;/li&gt;
+  &lt;li&gt;간단한 포부 : 직무에서 해결할 수 있는 것들, 구체적으로 하고싶은 것들&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;유사경험이-없지만-시간이-있는-경우&quot;&gt;유사경험이 없지만 시간이 있는 경우&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
+  &lt;li&gt;회사 지원동기 : 기업분석 &amp;amp; 산업분석 : 객관적인 강점, 차별화 : 회사의 객관적인 강점에 나의 강점으로 기여할 수 있습니다.&lt;/li&gt;
+  &lt;li&gt;성공 경험 1&lt;/li&gt;
+  &lt;li&gt;지식, 전문성 위한 지적 활동&lt;/li&gt;
+  &lt;li&gt;간단한 포부&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;유사경험도-없고-시간도-없는-경우&quot;&gt;유사경험도 없고 시간도 없는 경우&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
+  &lt;li&gt;직무 지원동기 : 직무에 필요한 역량이 A, B and  I got it&lt;/li&gt;
+  &lt;li&gt;성공 경험 1&lt;/li&gt;
+  &lt;li&gt;성공 경험 2  or 지적 활동들 // 자격증, 공부, 프로젝트&lt;/li&gt;
+  &lt;li&gt;간단한 포부 : 내가 ~~~한 강점을 통해서 내가 이 문제를 해결해 보고 싶다. 이 직무의 어떤 어려움을 극복해 보고 싶다. 당신네 회사에 어떤 성공을 안겨 주고 싶다.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="resume" /><summary type="html">유사경험이 있는 경우</summary></entry><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
 
 &lt;h3 id=&quot;0-download-ubuntu&quot;&gt;0. DOWNLOAD UBUNTU&lt;/h3&gt;
 
@@ -190,13 +217,139 @@ Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
 &lt;ol&gt;
   &lt;li&gt;상단탭에서 File -&amp;gt; Settings&lt;/li&gt;
   &lt;li&gt;왼쪽 메뉴에서 Project : XXXXX -&amp;gt; Python Interpreter -&amp;gt; py37를 적용 -&amp;gt; OK&lt;/li&gt;
-&lt;/ol&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html">개발환경</summary></entry><entry><title type="html">오차 역전파의 계산법 (Back propagation)</title><link href="/deeplearning/2021/02/02/Back-propagation.html" rel="alternate" type="text/html" title="오차 역전파의 계산법 (Back propagation)" /><published>2021-02-02T00:00:00+09:00</published><updated>2021-02-02T00:00:00+09:00</updated><id>/deeplearning/2021/02/02/Back-propagation</id><content type="html" xml:base="/deeplearning/2021/02/02/Back-propagation.html">&lt;p&gt;&lt;img src=&quot;/assets/images/출력층의_오차_업데이트.png&quot; alt=&quot;출력층의_오차_업데이트&quot; /&gt;&lt;/p&gt;
+&lt;/ol&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html">개발환경</summary></entry><entry><title type="html">01_퍼셉트론 (Perceptron)</title><link href="/deeplearning/2021/02/03/perceptron.html" rel="alternate" type="text/html" title="01_퍼셉트론 (Perceptron)" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/perceptron</id><content type="html" xml:base="/deeplearning/2021/02/03/perceptron.html">&lt;h2 id=&quot;perceptron이란&quot;&gt;Perceptron이란?&lt;/h2&gt;
 
-&lt;h2 id=&quot;1-출력층의-오차-업데이트&quot;&gt;1. 출력층의 오차 업데이트&lt;/h2&gt;
+&lt;p&gt;필자는 ‘Perceptron’이라는 단어를 듣자마자
+이렇게 생각했다. Per(완전히) + cep(잡다, 이해하다) + tron(The Realtime Operating System Nucleus)&lt;/p&gt;
+
+&lt;p&gt;tron이 좀 어려운데… 네이버 사진을 캡쳐해왔다.
+&lt;img src=&quot;/assets/images/사전_tron.png&quot; alt=&quot;사전_tron&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;즉, 완전히 이해하기위한 것이다.&lt;/p&gt;
+
+&lt;h3 id=&quot;perceptron의-역할-및-용어&quot;&gt;Perceptron의 역할 및 용어&lt;/h3&gt;
+
+&lt;p&gt;일반적으로 뇌의 연산구조는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;뉴런 -&amp;gt; 시냅스 -&amp;gt; 뉴런&lt;/code&gt;이렇게 구성되어 있다.
+그렇다면, 컴퓨터의 연산구조는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;입력값 -&amp;gt; 활성함수 -&amp;gt; 출력값&lt;/code&gt;이렇게 구성할 수 있지 않는가?&lt;/p&gt;
+
+&lt;p&gt;우리는 코딩을 통해서 함수에 reference value를 주면, return value를 받는것을 알고 있다. 저 위의 구조와 동일하지 않는가? 어렵지 않다.&lt;/p&gt;
+
+&lt;p&gt;\(y = ax + b = wx + b\)&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;위 식은 x의 값(input)에 따라서 y의 값(output)이 달라지는 것이다.
+쉽게 이해가 가지 않는가?&lt;/p&gt;
+
+  &lt;p&gt;그렇다면 딥러닝에서의 ‘wx + b’로 나타낼 수 있는데 이것을 판단함수 또는 활성화 함수(Activation function)이라고 합니다. (ex. 시그모이드)&lt;/p&gt;
+
+  &lt;p&gt;이때, w와 b는 각각 무엇을 의미하는지 아시나요?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;w : weight (가중치)
+b : bias (편향, 선입견)
+y : weighted sum (가중합)&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;위 용어는 매우 중요함으로 잘 기억해두시길 바랍니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;perceptron의-위치&quot;&gt;Perceptron의 위치&lt;/h3&gt;
+
+&lt;p&gt;뇌 : 뉴런 -&amp;gt; 신경망 -&amp;gt; 지능
+컴퓨터 : Perceptron -&amp;gt; 인공신경망 -&amp;gt; 인공지능&lt;/p&gt;
+
+&lt;h3 id=&quot;perceptron의-구조&quot;&gt;Perceptron의 구조&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/645/0*LJBO8UbtzK_SKMog&quot; alt=&quot;Perceptron_Model&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;일반적으로 Perceptron의 구조는 이렇게 생겼다.&lt;/p&gt;
+
+&lt;p&gt;우리는 앞서 XOR을 바로 연산하기 어렵다는 것을 배운 적이 있다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://ecee.colorado.edu/~ecen4831/lectures/xor2.gif&quot; alt=&quot;Perceptron_logic&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;perceptron의-은닉층&quot;&gt;Perceptron의 은닉층&lt;/h3&gt;
+
+&lt;p&gt;그래서 은닉층이라는 것을 활용하게 되었다.
+이것은 수학에서 치환의 개념으로 생각하면 쉽다. (ex. 극좌표 변환)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Multi_Perceptron.jpg&quot; alt=&quot;Multi_Perceptron&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;이런식으로 Multi Perceptron을 구성하여 해결할 수 있다.
+위 식을 보면 상당히 복잡해 보이는데… 사실 하나하나 알고보면 그리 어렵지 않다.&lt;/p&gt;
+
+&lt;p&gt;\(w(1) = \begin{pmatrix}
+w_{11} &amp;amp; w_{12} \\
+w_{21} &amp;amp; w_{22}
+\end{pmatrix} = \begin{pmatrix}
+-2 &amp;amp; 2 \\
+-2 &amp;amp; 2
+\end{pmatrix}\)
+\(w(2)= \binom{w_{31}}{w_{32}} = \binom{1}{1}\)
+\(b(1)= \binom{b_{1}}{b_{2}} = \binom{3}{-1}\)
+\(b(2) = b_{3} =(-1)\)&lt;/p&gt;
+
+&lt;p&gt;각각 이렇게 나타낸다면.
+풀이방식은 아래와 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;n&lt;sub&gt;1&lt;/sub&gt;, n&lt;sub&gt;2&lt;/sub&gt;를 구한다.
+\(\binom{n_{1}}{n_{2}} = \begin{pmatrix}
+w_{11} &amp;amp; w_{12} \\
+w_{21} &amp;amp; w_{22}
+\end{pmatrix} \binom{x_{1}}{x_{2}} + \binom{b_{1}}{b_{2}}
+= \binom{w_{11}x_{1} + w_{12}x_{2} + b_{1}}{w_{21}x_{1} + w_{22}x_{2} + b_{2}}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;에서 구한 n&lt;sub&gt;1&lt;/sub&gt;, n&lt;sub&gt;2&lt;/sub&gt;를 대입하여, y&lt;sub&gt;out&lt;/sub&gt;를 구한다.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+\[y_{out}=  \binom{n_{1}}{n_{2}} \binom{w_{31}}{w_{32}} + b_{3} = n_{1}w_{31} + n_{2}w_{32} + b_{3}\]
+
+&lt;p&gt;위 예시를 가지고 한번 풀어보아라.
+그러면 일련의 수식이 나오게 되는데 x&lt;sub&gt;1&lt;/sub&gt;, x&lt;sub&gt;2&lt;/sub&gt;의 각각 값을 대입해보면 XOR의 연산을 할 수 있을 것이다.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/Perceptron예제_연산결과.jpeg&quot; alt=&quot;Perceptron예제_연산결과&quot; /&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;위 예제가 바로 Perceptron의 은닉층을 활용하여 XOR를 구하는 기법이다.
+여기서 은닉층은 n&lt;sub&gt;1&lt;/sub&gt;, n&lt;sub&gt;2&lt;/sub&gt;이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;그렇다면, w(1), w(2), b(1), b(2)는 어떻게 구해야 하는 것일까?
+우리는 이미 주어진 값들을 가지고 풀어보았지만, 실제로는 이 값들을 알아내야 한다.&lt;/p&gt;
+
+&lt;p&gt;알아내는 방법은 다음에 배울 “오차 역전파(Back-propagation)”에서 알 수 있다.&lt;/p&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html">Perceptron이란?</summary></entry><entry><title type="html">02_오차 역전파의 계산법 (Back propagation)</title><link href="/deeplearning/2021/02/02/Back-propagation.html" rel="alternate" type="text/html" title="02_오차 역전파의 계산법 (Back propagation)" /><published>2021-02-02T00:00:00+09:00</published><updated>2021-02-02T00:00:00+09:00</updated><id>/deeplearning/2021/02/02/Back-propagation</id><content type="html" xml:base="/deeplearning/2021/02/02/Back-propagation.html">&lt;h2 id=&quot;오차-역전파란&quot;&gt;오차 역전파란?&lt;/h2&gt;
+
+&lt;p&gt;‘오차 역전파’는 ‘경사하강 법’이랑 유사하다.
+앞에서는 입력 1, 출력 1이었는데 이제는 은닉층이 있어서 다중입력, 다중출력이다.
+그래서 오차 역전파의 계산이 어려워 졌다. 계산 방법은 아래와 같다.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;임의의 초기 가중치(w)를 준 뒤 결과(y&lt;sub&gt;out&lt;/sub&gt;)를 계산한다.&lt;/li&gt;
+  &lt;li&gt;계산 결과와 우리가 원하는 값 사이의 오차를 구한다.&lt;/li&gt;
+  &lt;li&gt;경사 하강법을 이용해 바로 앞 가중치를 오차가 작아지는 방향으로 업데이트한다.&lt;/li&gt;
+  &lt;li&gt;위 과정을 더이상 오차가 줄어들지 않을 때까지 반복한다.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;3.4 추가 설명
+\(w(t + 1) =  w_{t} - \frac{d오차}{dw}\)
+위 공식으로 업데이트를 하는 것이다.
+사실 이러한 연산들은 케라스와 탠서플로우에서 다 구현이 되어있다.
+하지만 작동원리를 알아야 더 좋은 방법을 적용시킬 수 있으므로 우리는 이것을 배운다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;오차역전파-풀이&quot;&gt;오차역전파 풀이&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/출력층의_오차_업데이트.png&quot; alt=&quot;출력층의_오차_업데이트&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-출력층의-오차-업데이트&quot;&gt;1. 출력층의 오차 업데이트&lt;/h3&gt;
 
 \[w_{31} (t + 1) = w_{31}t - \frac{d 오차 y_{out}}{dw_{31}}\]
 
-&lt;h2 id=&quot;2-오차-공식&quot;&gt;2. 오차 공식&lt;/h2&gt;
+&lt;h3 id=&quot;2-오차-공식&quot;&gt;2. 오차 공식&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.&lt;/code&gt;식에서 y&lt;sub&gt;out&lt;/sub&gt;에 대한 값은 아래와 같이 구할 수 있다.
 \(오차 y_{out} = 오차y_{o1} + 오차y_{o2}\)&lt;/p&gt;
@@ -216,7 +369,7 @@ Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
 
 \[오차dy_{out} = \frac{1}{2}(y_{t1} - y_{o1})^{2} + \frac{1}{2}(y_{t2} - y_{o2})^{2}\]
 
-&lt;h2 id=&quot;3-체인룰&quot;&gt;3. 체인룰&lt;/h2&gt;
+&lt;h3 id=&quot;3-체인룰&quot;&gt;3. 체인룰&lt;/h3&gt;
 
 &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;2.&lt;/code&gt;에서 구한 y&lt;sub&gt;out&lt;/sub&gt;을 w&lt;sub&gt;31&lt;/sub&gt;로 편미분하기 위해서는 체인룰을 알아야한다.&lt;/p&gt;
 
@@ -231,14 +384,14 @@ Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
 
 \[\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\]
 
-&lt;h2 id=&quot;4-체인룰-계산하기&quot;&gt;4. 체인룰 계산하기&lt;/h2&gt;
+&lt;h3 id=&quot;4-체인룰-계산하기&quot;&gt;4. 체인룰 계산하기&lt;/h3&gt;
 &lt;p&gt;\(\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\)&lt;/p&gt;
 
 &lt;blockquote&gt;
   &lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;=&lt;/code&gt; 다음에 나오는 식을 각각  (1), (2), (3)이라고 한다면, 풀이하면 아래와 같다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;1&quot;&gt;(1)&lt;/h4&gt;
+&lt;h5 id=&quot;1&quot;&gt;(1)&lt;/h5&gt;
 &lt;p&gt;\(\frac{d오차y_{out}}{dy_{o1}} = \left \{오차y_{o1} + 오차y_{o2}  \right \}'\)&lt;/p&gt;
 
 &lt;blockquote&gt;
@@ -249,7 +402,7 @@ Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
 \(= (y_{t1} - y_{o1}) \cdot (-1)\)
 \(\therefore \frac{d오차y_{out}}{dy_{o1}} = (y_{o1} - y_{t1})\)&lt;/p&gt;
 
-&lt;h4 id=&quot;2&quot;&gt;(2)&lt;/h4&gt;
+&lt;h5 id=&quot;2&quot;&gt;(2)&lt;/h5&gt;
 
 &lt;p&gt;\(\frac{dy_{o1}}{d가중합_{3}}\)
 위는 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;활성화 함수의 미분&lt;/code&gt;이다. 맨위의 flowchart를 확인해보고 이해해보자.&lt;/p&gt;
@@ -269,7 +422,7 @@ Tools -&amp;gt; Create Desktop Entry… 를 클릭합니다.
 \((\because \sigma = \frac{1}{1 + e^{-x}})\)
 \(\therefore \frac{d}{dx}  \sigma (x) = \sigma (x) (1 - \sigma (x) )\)&lt;/p&gt;
 
-&lt;h4 id=&quot;3&quot;&gt;(3)&lt;/h4&gt;
+&lt;h5 id=&quot;3&quot;&gt;(3)&lt;/h5&gt;
 
 \[\frac{dy_{o1}}{d가중합_{3}}\]
 
@@ -288,13 +441,13 @@ why? bias는 그래프를 좌우로 움직이는 역할이다.
 
 \[\frac{dy_{o1}}{d가중합_{3}} = y_{h1}\]
 
-&lt;h4 id=&quot;결론&quot;&gt;(결론)&lt;/h4&gt;
+&lt;h5 id=&quot;결론&quot;&gt;(결론)&lt;/h5&gt;
 
 \[\frac{d오차y_{out}}{dw_{31}} = \frac{d오차y_{out}}{dy_{o1}} \cdot \frac{dy_{o1}}{d가중합_{3}} \cdot \frac{d가중합_{3}}{dw_{31}}\]
 
 \[= (y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\]
 
-&lt;h2 id=&quot;5-가중치-업데이트하기&quot;&gt;5. 가중치 업데이트하기&lt;/h2&gt;
+&lt;h3 id=&quot;5-가중치-업데이트하기&quot;&gt;5. 가중치 업데이트하기&lt;/h3&gt;
 
 \[w_{31} (t + 1) = w_{31}t - \frac{d 오차 y_{out}}{dw_{31}}\]
 
@@ -309,7 +462,7 @@ n3(node)의 delta식이라고 한다.&lt;/p&gt;
 
 \[= w_{31}t - \delta \cdot y_{h1}\]
 
-&lt;h2 id=&quot;6-은닉층의-오차-업데이트&quot;&gt;6. 은닉층의 오차 업데이트&lt;/h2&gt;
+&lt;h3 id=&quot;6-은닉층의-오차-업데이트&quot;&gt;6. 은닉층의 오차 업데이트&lt;/h3&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/images/은닉층의_오차_업데이트.png&quot; alt=&quot;은닉층의_오차_업데이트&quot; /&gt;&lt;/p&gt;
 
@@ -330,13 +483,13 @@ n3(node)의 delta식이라고 한다.&lt;/p&gt;
 다만, (1)은 풀이방식이 조금 다르다 왜냐하면 위 flowchart에서 보여지는 것처럼 은닉층이기 때문에 중간의 y&lt;sub&gt;h1&lt;/sub&gt;을 바로 알 수 없다. 따라서 y&lt;sub&gt;out&lt;/sub&gt;의 값에서 유도를 해야하기 때문이다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;2-3&quot;&gt;(2), (3)&lt;/h4&gt;
+&lt;h5 id=&quot;2-3&quot;&gt;(2), (3)&lt;/h5&gt;
 
 \[\frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}} = y_{h1}(1 - y_{h1}) \cdot x_{1}\]
 
-&lt;h2 id=&quot;7-은닉층의-오차계산-방법&quot;&gt;7. 은닉층의 오차계산 방법&lt;/h2&gt;
+&lt;h3 id=&quot;7-은닉층의-오차계산-방법&quot;&gt;7. 은닉층의 오차계산 방법&lt;/h3&gt;
 
-&lt;h4 id=&quot;1-1&quot;&gt;(1)&lt;/h4&gt;
+&lt;h5 id=&quot;1-1&quot;&gt;(1)&lt;/h5&gt;
 
 \[\frac{d오차y_{out}}{dy_{h1}}\]
 
@@ -399,18 +552,18 @@ n3(node)의 delta식이라고 한다.&lt;/p&gt;
   &lt;p&gt;(a)의 풀이방식과 유사하다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h4 id=&quot;1--a--b&quot;&gt;(1) = (a) + (b)&lt;/h4&gt;
+&lt;h5 id=&quot;1--a--b&quot;&gt;(1) = (a) + (b)&lt;/h5&gt;
 
 &lt;p&gt;\(\frac{d오차y_{out}}{dy_{h1}} = \frac{d오차y_{o1}}{dy_{h1}} + \frac{d오차y_{o2}}{dy_{h1}}\)
 \(= \delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}\)&lt;/p&gt;
 
-&lt;h4 id=&quot;은닉층의-오차-업데이트-최종-결과&quot;&gt;은닉층의 오차 업데이트 최종 결과&lt;/h4&gt;
+&lt;h5 id=&quot;은닉층의-오차-업데이트-최종-결과&quot;&gt;은닉층의 오차 업데이트 최종 결과&lt;/h5&gt;
 
 \[\frac{d오차y_{out}}{dw_{11}} = \frac{d오차y_{out}}{dy_{h1}} \cdot \frac{dy_{h1}}{d가중합_{1}} \cdot \frac{d가중합_{1}}{dw_{11}}\]
 
 \[= (\delta y_{o1} \cdot w_{31} + \delta y_{o2} \cdot w_{41}) \cdot y_{h1}(1 - y_{h1}) \cdot x_{1}\]
 
-&lt;h2 id=&quot;8-델타식&quot;&gt;8. 델타식&lt;/h2&gt;
+&lt;h3 id=&quot;8-델타식&quot;&gt;8. 델타식&lt;/h3&gt;
 
 &lt;p&gt;출력층의 오차 업데이트는 아래와 같다.
 \((y_{o1} - y_{t1}) \cdot y_{o1}(1 - y_{o1}) \cdot y_{h1}\)&lt;/p&gt;
@@ -432,85 +585,52 @@ n3(node)의 delta식이라고 한다.&lt;/p&gt;
 
 &lt;p&gt;아래는 델타식의 표현방법이다. δh를 은닉층의 델타식이라고 할때, 은닉층의 가중치 업데이트는 다음과 같다.&lt;/p&gt;
 
-\[w_{11}(t + 1) = w_{11}t - \delta h \cdot x_{1}\]</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html"></summary></entry><entry><title type="html">최소 제곱법 (Method of least squares)</title><link href="/math/2021/01/30/Method-of-least-squares.html" rel="alternate" type="text/html" title="최소 제곱법 (Method of least squares)" /><published>2021-01-30T00:00:00+09:00</published><updated>2021-01-30T00:00:00+09:00</updated><id>/math/2021/01/30/Method-of-least-squares</id><content type="html" xml:base="/math/2021/01/30/Method-of-least-squares.html">&lt;blockquote&gt;
-  &lt;p&gt;입력 변수 \((x)\)가 한 개일 때 사용합니다. (여러 개의 입력을 처리하지 못한다.)
-여러개의 \((x, y)\)가 주어질때, \(y = ax + b\)를 구하는 방법입니다.&lt;/p&gt;
-&lt;/blockquote&gt;
+\[w_{11}(t + 1) = w_{11}t - \delta h \cdot x_{1}\]
+
+&lt;h2 id=&quot;요약&quot;&gt;요약&lt;/h2&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;x, y 입력&lt;/li&gt;
-  &lt;li&gt;x, y의 평균 구하기&lt;/li&gt;
-  &lt;li&gt;a, b 구하기&lt;/li&gt;
-  &lt;li&gt;y = ax + b 출력&lt;/li&gt;
+  &lt;li&gt;환경변수 설정 : 입력값, 학습률, 타깃 결과값이 포함된 데이터셋, 활성화함수, 결과값&lt;/li&gt;
+  &lt;li&gt;신경망 실행&lt;/li&gt;
+  &lt;li&gt;결과값 == 실제값? 4.실행 : 5. 실행&lt;/li&gt;
+  &lt;li&gt;반복횟수를 지정, 출력층 가중치 수정 -&amp;gt; 은닉층 가중치 수정, 1.부터 다시 실행&lt;/li&gt;
+  &lt;li&gt;결과 출력&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;&lt;br /&gt;
-\(a = \frac{\sum (x - \bar{x})(y - \bar{y})}{\sum(x - \bar{x})^{2}}\)
-\(b = \bar{y} - (\bar{x} \times a )\)&lt;/p&gt;
+&lt;h2 id=&quot;오차역전파의-문제점-활성화-함수의-문제점&quot;&gt;오차역전파의 문제점 (활성화 함수의 문제점)&lt;/h2&gt;
+&lt;p&gt;오차 역전파는 출력층으로부터 하나씩 앞으로 되돌아가면서 각 층의 가중치를 수정하는 방법이다. 하지만 층이 늘어나면 역전파를 통해 전달되는 기울기 값이 점점 작아져 맨 처음층까지 도달하지 못하는 문제가 발생된다. 이게 바로 기울기 소실(Vanishing gradient)문제이다.&lt;/p&gt;
 
-&lt;h2 id=&quot;ex-01_least_square_methodpy&quot;&gt;Ex) 01_Least_Square_Method.py&lt;/h2&gt;
+&lt;h3 id=&quot;기울기-소실vanishing-gradient-문제&quot;&gt;기울기 소실(Vanishing gradient) 문제&lt;/h3&gt;
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;공부한 시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;2시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;4시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;6시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: center&quot;&gt;8시간&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;성적&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;81점&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;93점&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;91점&lt;/td&gt;
-      &lt;td style=&quot;text-align: center&quot;&gt;97점&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+&lt;h5 id=&quot;sigmoid&quot;&gt;sigmoid&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/4384/1*6A3A_rt4YmumHusvTvVTxw.png&quot; alt=&quot;sigmoid_derivative&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;\(x = \{ 2, 4, 6, 8 \}\)
-\(y = \{ 81, 93, 91, 97 \}\)&lt;/p&gt;
+\[f(x) = \frac{1}{1+e^{-x}}\]
 
-&lt;p&gt;\(\bar{x} = \frac{2 + 4 + 6 + 8}{4} = 5\)
-\(\bar{y} = \frac{81 + 93 + 91 + 97}{4} = 90.5\)&lt;/p&gt;
+&lt;p&gt;sigmoid함수를 예를들어보자.
+미분을 할 경우 최대값이 0.3정도가 되는데 이때 기울기 소실이 발생 될 수 있다.&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;tip. 미분한 sigmoid의 최대값은 sigmoid를 두번미분한 값이 0이 될때의 x를 구하면 알 수 있다.&lt;/p&gt;
+&lt;/blockquote&gt;
 
-&lt;p&gt;\(a = \frac{\sum (x - \bar{x})(y - \bar{y})}{\sum(x - \bar{x})^{2}}\)
-\(= \frac{(2 - 5)(81 - 90.5) + (4 - 5)(93 - 90.5) + \cdots + (8 - 5)(97 - 90.5)}{(2 - 5)^{2} + (4 - 5)^{2} + \cdots + (8 - 5)^{2}  }\)
-\(= \frac{46}{20} = 2.3\)
- 
-\(b = \bar{y} - (\bar{x} \times a )\)
-\(= 90.5 - (2.3 \times 5 )\)
-\(= 79\)&lt;/p&gt;
+&lt;h5 id=&quot;tanh-x&quot;&gt;tanh x&lt;/h5&gt;
+&lt;p&gt;&lt;img src=&quot;https://www.researchgate.net/profile/Henrik_Madsen/publication/233400322/figure/fig8/AS:669464982994955@1536624298388/The-threshold-function-tanhx-solid-line-and-the-derivative.png&quot; alt=&quot;tanhx_derivative&quot; /&gt;&lt;/p&gt;
 
-\[y = 2.3x + 79\]
+\[\tanh x = \frac{\sinh x}{\cosh x} = \frac{\frac{e^{x} - e^{-x}}{2}}{\frac{e^{x} + e^{-x}}{2}} = \frac{e^{x} - e^{-x}}{e^{x} + e^{-x}} = -i \tan ix\]
 
-&lt;table&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;공부한 시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;2시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;4시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;6시간&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;8시간&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;성적&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;81점&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;93점&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;91점&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;97점&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;예측 값&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;83.6&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;88.2&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;92.8&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;97.4&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="math" /><summary type="html">입력 변수 \((x)\)가 한 개일 때 사용합니다. (여러 개의 입력을 처리하지 못한다.) 여러개의 \((x, y)\)가 주어질때, \(y = ax + b\)를 구하는 방법입니다.</summary></entry></feed>
+&lt;h5 id=&quot;relu&quot;&gt;ReLu&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/640/1*akqBxW4dv35MKlU8a1-0Ag.png&quot; alt=&quot;ReLU_derivative&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;\(f(x) = \begin{Bmatrix}
+ x &amp;amp;(x &amp;gt; 0) \\
+ 0 &amp;amp; (x \leqslant 0)
+\end{Bmatrix}\)
+ReLu같은 경우는 0보다 크기만 하면 미분값이 1이 되므로 ‘기울기 소실’이 발생되지 않습니다. 따라서 여러 은닉층을 거치며 곱해지더라도 맨 처음 층까지 사라지지 않고 남아잇을 수 있습니다.&lt;/p&gt;
+
+&lt;h5 id=&quot;softplus&quot;&gt;softplus&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://cdn-images-1.medium.com/max/800/1*w275Sin5bKAIaWBaJ6zXcA.png&quot; alt=&quot;softplus&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;\(f(x) = \log (1 + e^{x})\)
+ReLU를 변형한 것인데, 0이 되는 순간을 완화한 버전이라고 생각하면 된다.&lt;/p&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="deeplearning" /><summary type="html">오차 역전파란?</summary></entry></feed>
