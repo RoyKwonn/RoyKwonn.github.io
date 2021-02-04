@@ -1,31 +1,82 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-05T05:57:31+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-05T06:14:02+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">자기소개서 꿀팁</title><link href="/resume/2021/02/05/resume-tips.html" rel="alternate" type="text/html" title="자기소개서 꿀팁" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>/resume/2021/02/05/resume-tips</id><content type="html" xml:base="/resume/2021/02/05/resume-tips.html">&lt;h3 id=&quot;유사경험이-있는-경우&quot;&gt;유사경험이 있는 경우&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
-  &lt;li&gt;관심 갖게 된 계기&lt;/li&gt;
-  &lt;li&gt;계기로 인해 유사 경험함(인턴, 알바 등) // 조금이라도 유사한 경험 // 유사 경험하면서 나의 강점 길렀다&lt;/li&gt;
-  &lt;li&gt;지식, 전문성 위한 지적 활동 : 이러한 경험에 나의 전문성을 더하고자 자격증을 땄고요 ~~교육을 받았고요 그리고 박람회에 가서 ~~를 참가해 봤습니다.&lt;/li&gt;
-  &lt;li&gt;간단한 포부 : 직무에서 해결할 수 있는 것들, 구체적으로 하고싶은 것들&lt;/li&gt;
+  &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
+    &lt;blockquote&gt;
+      &lt;p&gt;“내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 .”
+“내가 ~~을 하고 싶다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;관심 갖게 된 계기
+    &lt;blockquote&gt;
+      &lt;p&gt;계기로 인해 내가 유사경험한 내용 기술하자 &amp;lt;유사 경험함(인턴, 알바 등) or 조금이라도 유사한 경험&amp;gt;
+“~~한 유사 경험하면서 나의 강점 길렀다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;지식, 전문성 위한 지적 활동
+    &lt;blockquote&gt;
+      &lt;p&gt;“이러한 경험에 나의 전문성을 더하고자 자격증을 땄고요 ~~교육을 받았고요 그리고 박람회에 가서 ~~를 참가해 봤습니다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;간단한 포부
+    &lt;blockquote&gt;
+      &lt;p&gt;직무에서 해결할 수 있는 것들, 구체적으로 하고싶은 것들을 작성하자.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;유사경험이-없지만-시간이-있는-경우&quot;&gt;유사경험이 없지만 시간이 있는 경우&lt;/h3&gt;
 &lt;ul&gt;
-  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
-  &lt;li&gt;회사 지원동기 : 기업분석 &amp;amp; 산업분석 : 객관적인 강점, 차별화 : 회사의 객관적인 강점에 나의 강점으로 기여할 수 있습니다.&lt;/li&gt;
-  &lt;li&gt;성공 경험 1&lt;/li&gt;
-  &lt;li&gt;지식, 전문성 위한 지적 활동&lt;/li&gt;
+  &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
+    &lt;blockquote&gt;
+      &lt;p&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;회사 지원동기 :
+    &lt;blockquote&gt;
+      &lt;p&gt;기업분석 &amp;amp; 산업분석&lt;br /&gt;
+객관적인 강점, 차별화
+회사의 객관적인 강점에 나의 강점으로 기여할 수 있습니다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;성공 경험 1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;지식, 전문성 위한 지적 활동&lt;/p&gt;
+  &lt;/li&gt;
   &lt;li&gt;간단한 포부&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;유사경험도-없고-시간도-없는-경우&quot;&gt;유사경험도 없고 시간도 없는 경우&lt;/h3&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다 : 내가 ~~을 하고 싶다  // 최대한 구체적으로&lt;/li&gt;
-  &lt;li&gt;직무 지원동기 : 직무에 필요한 역량이 A, B and  I got it&lt;/li&gt;
-  &lt;li&gt;성공 경험 1&lt;/li&gt;
-  &lt;li&gt;성공 경험 2  or 지적 활동들 // 자격증, 공부, 프로젝트&lt;/li&gt;
-  &lt;li&gt;간단한 포부 : 내가 ~~~한 강점을 통해서 내가 이 문제를 해결해 보고 싶다. 이 직무의 어떤 어려움을 극복해 보고 싶다. 당신네 회사에 어떤 성공을 안겨 주고 싶다.&lt;/li&gt;
+  &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
+    &lt;blockquote&gt;
+      &lt;p&gt;“내가 이 회사에 지원해서 ~~일을 통해서 ~~을 해결/완성/등등 해보고 싶다”
+“내가 ~~을 하고 싶다”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;직무 지원동기
+    &lt;blockquote&gt;
+      &lt;p&gt;“직무에 필요한 역량이 A, B and  I got it”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;성공 경험 1&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;성공 경험 2  or 지적 활동들
+    &lt;blockquote&gt;
+      &lt;p&gt;자격증, 공부, 프로젝트&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;간단한 포부
+    &lt;blockquote&gt;
+      &lt;p&gt;“내가 ~~~한 강점을 통해서 내가 이 문제를 해결해 보고 싶다. “
+“이 직무의 어떤 어려움을 극복해 보고 싶다. 당신네 회사에 어떤 성공을 안겨 주고 싶다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="resume" /><summary type="html">유사경험이 있는 경우</summary></entry><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
 
 &lt;h3 id=&quot;0-download-ubuntu&quot;&gt;0. DOWNLOAD UBUNTU&lt;/h3&gt;
