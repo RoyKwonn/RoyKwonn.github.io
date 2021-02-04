@@ -1,12 +1,11 @@
 ---
 layout: post
-title: "자기소개서 꿀팁"
+title: "자기소개서 꿀팁 - 유사경험 관련"
 categories: resume
 author:
 - Seokhwan Kwon
 meta: "Springfield"
 ---
-
 
 ### 유사경험이 있는 경우
 
