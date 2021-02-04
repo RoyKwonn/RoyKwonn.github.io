@@ -1,5 +1,120 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-05T06:18:56+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
-</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">자기소개서 꿀팁 - 유사경험 관련</title><link href="/resume/2021/02/05/similar-experience.html" rel="alternate" type="text/html" title="자기소개서 꿀팁 - 유사경험 관련" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>/resume/2021/02/05/similar-experience</id><content type="html" xml:base="/resume/2021/02/05/similar-experience.html">&lt;h3 id=&quot;유사경험이-있는-경우&quot;&gt;유사경험이 있는 경우&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2021-02-05T06:57:56+09:00</updated><id>/feed.xml</id><title type="html">A workbench of Seokhwan’s</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+</subtitle><author><name>Seokhwan Kwon</name><email>sychar05@gmail.com</email></author><entry><title type="html">자기소개서 꿀팁</title><link href="/resume/2021/02/05/similar-resume-tips.html" rel="alternate" type="text/html" title="자기소개서 꿀팁" /><published>2021-02-05T00:00:00+09:00</published><updated>2021-02-05T00:00:00+09:00</updated><id>/resume/2021/02/05/similar-resume-tips</id><content type="html" xml:base="/resume/2021/02/05/similar-resume-tips.html">&lt;blockquote&gt;
+  &lt;p&gt;이 글은 필자가 취뽀하기 위해서 직접 작성한 것이며,
+불펌을 금합니다.
+다만, 이 누추한 곳 까지 방문하신분들에게 소소한 도움이 될 수 있길 바라며 이곳에 올립니다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;아래 각각의 굵은 글씨는 자기소개서의 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;질문 keyword&lt;/code&gt;이다.
+각 질문에 해당하는 항목을 찾아가 글의 구조를 활용해보자.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;지원-동기&quot;&gt;지원 동기&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;이력 요약 -&amp;gt; 합격후 포부&lt;/code&gt;순으로 작성하여라.
+특히 합격후 포부는 구체적인 방법(How)이 중요하다.
+이 문항은 직무 이해도를 판단하기 위한 것이다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;직무에 대한 비전 (미래에 성장한 모습)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;비전을 이루기 위한 노력 (단계별)&lt;/p&gt;
+    &lt;blockquote&gt;
+      &lt;p&gt;우리는 비록 신입이지만, 경력채용 공고문을 참고하면 어떤사람을 필요로하는지 아는데 도움이 된다.&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;합격-후-포부&quot;&gt;합격 후 포부&lt;/h3&gt;
+&lt;p&gt;이 항목은 면접과 연결되는 부분이다.
+이 항목이 묻고싶은 바는 아래와 같다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;직무를 이해하는가&lt;/li&gt;
+  &lt;li&gt;본인의 강점을 이해하고 있는가&lt;/li&gt;
+  &lt;li&gt;성실하게 생각하고 고민하고 열정이 있는가?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“우리 회사에 와서 뭘 하고싶으세요? (면접시 중요한 문항)”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;문제해결&quot;&gt;문제해결&lt;/h3&gt;
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;문제 상황/원인 -&amp;gt; 해결책&lt;/code&gt; 순으로 작성한는 것이 좋다.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;문제 상황&lt;/li&gt;
+  &lt;li&gt;문제 원인에 대한 인식&lt;/li&gt;
+  &lt;li&gt;근거 (직접 보지 못함)&lt;/li&gt;
+  &lt;li&gt;해결&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;역량&quot;&gt;역량&lt;/h3&gt;
+
+&lt;p&gt;포인트는 나의 역량을 되집어주는 것이다.
+글의 흐름은 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;先역량 -&amp;gt; 後경험&lt;/code&gt; 이렇게 하는 것이 좋다.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;1000자&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;500자&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;1. 역량-상황&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3줄&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;3줄&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;2. 액션&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;7~8줄&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;4줄&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;3. 결과-역량&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2~3줄&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;2줄&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;역량
+    &lt;blockquote&gt;
+      &lt;p&gt;경험을 요약한다.
+“한 경험을 통해서 ~ 역량이 개발되었다.”
+“~한 역량을 통해서 문제를 해결하였다.”&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;상황 (1~2줄) : 최대한 줄여라&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;액션 (3~4줄) : 제일 많은 비중을 확보하여라
+    &lt;blockquote&gt;
+      &lt;p&gt;‘내가 어떤일을 했는지’
+‘어떻게 문제를 해결했는지’
+‘나는 거기서 어떤 생각을해서 이런 행동을 하게되었는지’&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+  &lt;li&gt;결과
+    &lt;blockquote&gt;
+      &lt;p&gt;‘수치적으로 작성’
+‘수치적인 결과가 없다면 질적인 결과물’&lt;/p&gt;
+    &lt;/blockquote&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;유사경험&quot;&gt;유사경험&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-유사경험이-있는-경우&quot;&gt;1) 유사경험이 있는 경우&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
@@ -26,7 +141,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;유사경험이-없지만-시간이-있는-경우&quot;&gt;유사경험이 없지만 시간이 있는 경우&lt;/h3&gt;
+&lt;h4 id=&quot;2-유사경험이-없지만-시간이-있는-경우&quot;&gt;2) 유사경험이 없지만 시간이 있는 경우&lt;/h4&gt;
 &lt;ul&gt;
   &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
     &lt;blockquote&gt;
@@ -49,7 +164,7 @@
   &lt;li&gt;간단한 포부&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&quot;유사경험도-없고-시간도-없는-경우&quot;&gt;유사경험도 없고 시간도 없는 경우&lt;/h3&gt;
+&lt;h4 id=&quot;3-유사경험도-없고-시간도-없는-경우&quot;&gt;3) 유사경험도 없고 시간도 없는 경우&lt;/h4&gt;
 
 &lt;ul&gt;
   &lt;li&gt;최대한 구체적으로 만약 내가 조직에 들어간다면? 실행할 목표를 제시하라.
@@ -77,7 +192,7 @@
 “이 직무의 어떤 어려움을 극복해 보고 싶다. 당신네 회사에 어떤 성공을 안겨 주고 싶다.”&lt;/p&gt;
     &lt;/blockquote&gt;
   &lt;/li&gt;
-&lt;/ul&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="resume" /><summary type="html">유사경험이 있는 경우</summary></entry><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
+&lt;/ul&gt;</content><author><name>[&quot;Seokhwan Kwon&quot;]</name></author><category term="resume" /><summary type="html">이 글은 필자가 취뽀하기 위해서 직접 작성한 것이며, 불펌을 금합니다. 다만, 이 누추한 곳 까지 방문하신분들에게 소소한 도움이 될 수 있길 바라며 이곳에 올립니다.</summary></entry><entry><title type="html">딥러닝 개발환경 구축하기</title><link href="/deeplearning/2021/02/03/setup-env-for-deeplearning.html" rel="alternate" type="text/html" title="딥러닝 개발환경 구축하기" /><published>2021-02-03T00:00:00+09:00</published><updated>2021-02-03T00:00:00+09:00</updated><id>/deeplearning/2021/02/03/setup-env-for-deeplearning</id><content type="html" xml:base="/deeplearning/2021/02/03/setup-env-for-deeplearning.html">&lt;h2 id=&quot;개발환경&quot;&gt;개발환경&lt;/h2&gt;
 
 &lt;h3 id=&quot;0-download-ubuntu&quot;&gt;0. DOWNLOAD UBUNTU&lt;/h3&gt;
 
